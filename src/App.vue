@@ -206,7 +206,7 @@ export default {
       this.onStart();
     },
     onEraseGame() {
-      this.level = 0;
+      // this.level = 0;
       this.score = 0;
       this.onStart();
     },
