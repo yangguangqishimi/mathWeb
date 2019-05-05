@@ -33,11 +33,17 @@ export default {
           this.good - this.settings.range,
           this.good + this.settings.range
         );
-        // let t1 = this.good % 10;
-        // let t2 = num - num % 10 + t1;
+        
+        if (this.good > 30 && this.settings.range > 20) {
+          let t1 = this.good % 10;
+          num = num - num % 10 + t1;
+        }
         if (num > 0 && res.indexOf(num) === -1) {
           res.push(num);
         }
+      }
+      if (this.settings.range <= 10) {
+        res[1] = res[0] + 10;
       }
       return randomSort(res);
     }

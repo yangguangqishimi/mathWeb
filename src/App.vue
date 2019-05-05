@@ -82,14 +82,14 @@ export default {
           method: '+'
         },
         {
-          from: 100,
+          from: 50,
           to: 200,
-          range: 20,
+          range: 30,
           variants: 4,
           method: '+'
         },
         {
-          from: 500,
+          from: 300,
           to: 900,
           range: 40,
           variants: 4,
@@ -105,7 +105,7 @@ export default {
         {
           from: 100,
           to: 200,
-          range: 20,
+          range: 30,
           variants: 4,
           method: '-'
         },
@@ -117,15 +117,15 @@ export default {
           method: '-'
         },
         {
-          from: 5,
-          to: 20,
-          range: 10,
+          from: 8,
+          to: 30,
+          range: 25,
           variants: 4,
           method: 'x'
         },
         {
-          from: 10,
-          to: 40,
+          from: 15,
+          to: 50,
           range: 100,
           variants: 4,
           method: 'x'
@@ -138,23 +138,23 @@ export default {
           method: 'x'
         },
         {
-          from: 5,
-          to: 20,
-          range: 5,
+          from: 8,
+          to: 30,
+          range: 25,
           variants: 4,
           method: '÷'
         },
         {
           from: 10,
           to: 40,
-          range: 5,
+          range: 25,
           variants: 4,
           method: '÷'
         },
         {
           from: 30,
           to: 100,
-          range: 10,
+          range: 30,
           variants: 4,
           method: '÷'
         }
