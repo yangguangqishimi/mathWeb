@@ -42,8 +42,8 @@ export default {
           res.push(num);
         }
       }
-      if (this.settings.range <= 10) {
-        res[1] = res[0] + 10;
+      if (this.settings.range <= 10 && res[1] > 10) {
+        res[1] = res[0] + Math.random() > 0.5 ? 10 : -10;
       }
       return randomSort(res);
     }
